@@ -3,6 +3,7 @@ var dateTimeDisplay = $('#display-time');
 var saveBtn = $('.saveBtn');
 
 
+
 //Display current date and time in the header
 function displayTime() {
     var currentDate = moment().format('LLLL');
@@ -36,5 +37,12 @@ function colorCode() {
         }
     })
 };
+
+//Clear schedule button
+clearSchedule.addEventListener("click", function(event) {
+    event.preventDefault;
+    localStorage.clear();
+    $(".event").val("");
+});
 
 colorCode();
