@@ -21,16 +21,15 @@ saveBtn.on("click", function () {
 //On page reload retrieve items from local storage
 
 
-
 //Function color code 
 function colorCode() {
-    var timeNow = moment().hours();
+    var hourCurrent = moment().hour();
     $(".event").each(function () {
         var hour = parseInt($(this).attr("id"));
 
-        if (hour > timeNow) {
+        if (hour > hourCurrent) {
             $(this).addClass("future");
-        } else if (hour === timeNow) {
+        } else if (hour === hourCurrent) {
             $(this).addClass("present");
         } else {
             $(this).addClass("past");

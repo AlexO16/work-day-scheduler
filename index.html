@@ -26,9 +26,9 @@
 
     <!--9am to 5pm -->
     <div class="container">
-        <div class="row" id="hour9">
+        <div class="row time-block" id="hour9">
             <div class="column col-1 hour">9:00AM</div>
-            <textarea class="column col-10 text-center event" placeholder="Add event"></textarea>
+            <textarea class="column col-10 text-center event" id="9" placeholder="Add event"></textarea>
             <button class="column col-1 saveBtn"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                     fill="currentColor" class="bi bi-save" viewBox="0 0 16 16">
                     <path
@@ -37,9 +37,9 @@
 
         </div>
 
-        <div class="row" id="hour10">
+        <div class="row time-block" id="hour10">
             <div class="column col-1 hour">10:00AM</div>
-            <textarea class="column col-10 text-center event" placeholder="Add event"></textarea>
+            <textarea class="column col-10 text-center event" id="10" placeholder="Add event"></textarea>
             <button class="column col-1 saveBtn"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                     fill="currentColor" class="bi bi-save" viewBox="0 0 16 16">
                     <path
@@ -48,9 +48,9 @@
 
         </div>
 
-        <div class="row" id="hour11">
+        <div class="row time-block" id="hour11">
             <div class="column col-1 hour">11:00AM</div>
-            <textarea class="column col-10 text-center event" placeholder="Add event"></textarea>
+            <textarea class="column col-10 text-center event" id="11" placeholder="Add event"></textarea>
             <button class="column col-1 saveBtn"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                     fill="currentColor" class="bi bi-save" viewBox="0 0 16 16">
                     <path
@@ -59,9 +59,9 @@
 
         </div>
 
-        <div class="row" id="hour12">
+        <div class="row time-block" id="hour12">
             <div class="column col-1 hour">12:00PM</div>
-            <textarea class="column col-10 text-center event" placeholder="Add event"></textarea>
+            <textarea class="column col-10 text-center event" id="12" placeholder="Add event"></textarea>
             <button class="column col-1 saveBtn"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                     fill="currentColor" class="bi bi-save" viewBox="0 0 16 16">
                     <path
@@ -70,9 +70,9 @@
 
         </div>
 
-        <div class="row" id="hour13">
+        <div class="row time-block" id="hour13">
             <div class="column col-1 hour">1:00PM</div>
-            <textarea class="column col-10 text-center event" placeholder="Add event"></textarea>
+            <textarea class="column col-10 text-center event" id="13" placeholder="Add event"></textarea>
             <button class="column col-1 saveBtn"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                     fill="currentColor" class="bi bi-save" viewBox="0 0 16 16">
                     <path
@@ -81,9 +81,9 @@
 
         </div>
 
-        <div class="row" id="hour14">
+        <div class="row time-block" id="hour14">
             <div class="column col-1 hour">2:00PM</div>
-            <textarea class="column col-10 text-center event" placeholder="Add event"></textarea>
+            <textarea class="column col-10 text-center event" id="14" placeholder="Add event"></textarea>
             <button class="column col-1 saveBtn"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                     fill="currentColor" class="bi bi-save" viewBox="0 0 16 16">
                     <path
@@ -92,9 +92,9 @@
 
         </div>
 
-        <div class="row" id="hour15">
+        <div class="row time-block" id="hour15">
             <div class="column col-1 hour">3:00PM</div>
-            <textarea class="column col-10 text-center event" placeholder="Add event"></textarea>
+            <textarea class="column col-10 text-center event" id="15" placeholder="Add event"></textarea>
             <button class="column col-1 saveBtn"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                     fill="currentColor" class="bi bi-save" viewBox="0 0 16 16">
                     <path
@@ -103,9 +103,9 @@
 
         </div>
 
-        <div class="row" id="hour16">
+        <div class="row time-block" id="hour16">
             <div class="column col-1 hour">4:00PM</div>
-            <textarea class="column col-10 text-center event" placeholder="Add event"></textarea>
+            <textarea class="column col-10 text-center event" id="16" placeholder="Add event"></textarea>
             <button class="column col-1 saveBtn"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                     fill="currentColor" class="bi bi-save" viewBox="0 0 16 16">
                     <path
@@ -114,9 +114,9 @@
 
         </div>
 
-        <div class="row" id="hour17">
-            <div class="column col-1 hour" >5:00PM</div>
-            <textarea class="column col-10 text-center event" placeholder="Add event"></textarea>
+        <div class="row time-block" id="hour17">
+            <div class="column col-1 hour">5:00PM</div>
+            <textarea class="column col-10 text-center event" id="17" placeholder="Add event"></textarea>
             <button class="column col-1 saveBtn"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                     fill="currentColor" class="bi bi-save" viewBox="0 0 16 16">
                     <path
@@ -130,7 +130,7 @@
 
 
 
-
+    <!--moment.js jquery and bootstrap script-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
