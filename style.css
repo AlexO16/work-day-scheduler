@@ -1,0 +1,16 @@
+
+
+.future {
+    background-color: lightgreen;
+    color: white;
+}
+
+.present {
+    background-color: rgb(224, 232, 71);
+    color: white;
+}
+
+.past {
+    background-color: lightcoral;
+    color: white;
+}
