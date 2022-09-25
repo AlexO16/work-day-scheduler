@@ -25,8 +25,8 @@ saveBtn.on("click", function () {
 //Function color code 
 function colorCode() {
     var timeNow = moment().hours();
-    $(".log").each(function () {
-        var hour = parseInt($(this).attr("class"));
+    $(".event").each(function () {
+        var hour = parseInt($(this).attr("id"));
 
         if (hour > timeNow) {
             $(this).addClass("future");
@@ -37,3 +37,5 @@ function colorCode() {
         }
     })
 };
+
+colorCode();
