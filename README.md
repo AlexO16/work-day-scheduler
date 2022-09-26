@@ -10,7 +10,7 @@ This webpage is a daily work day planner. When the page loads you will see the c
 
 # Links 
 * [Deployed webpage](
-* [Repository](
+* [Repository](https://github.com/AlexO16/work-day-scheduler)
 
 # Credits
 * [University of Minnesota](https://courses.bootcampspot.com/courses/2176/assignments/38776?module_item_id=750380)
